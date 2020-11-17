@@ -9,23 +9,37 @@
 /* Begin PBXBuildFile section */
 		ADF680B4255FCC1300E7C347 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF680B3255FCC1300E7C347 /* AppDelegate.swift */; };
 		ADF680B6255FCC1300E7C347 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF680B5255FCC1300E7C347 /* SceneDelegate.swift */; };
-		ADF680B8255FCC1300E7C347 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF680B7255FCC1300E7C347 /* ViewController.swift */; };
 		ADF680BB255FCC1300E7C347 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADF680B9255FCC1300E7C347 /* Main.storyboard */; };
 		ADF680BE255FCC1300E7C347 /* masterdom.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ADF680BC255FCC1300E7C347 /* masterdom.xcdatamodeld */; };
 		ADF680C0255FCC1400E7C347 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADF680BF255FCC1400E7C347 /* Assets.xcassets */; };
 		ADF680C3255FCC1400E7C347 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADF680C1255FCC1400E7C347 /* LaunchScreen.storyboard */; };
+		ADF680CC255FCE4C00E7C347 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF680CB255FCE4C00E7C347 /* SplashViewController.swift */; };
+		ADF680D2255FD30000E7C347 /* SplashPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF680D1255FD30000E7C347 /* SplashPresenter.swift */; };
+		ADF680D9255FDB9800E7C347 /* SplashAnimatorDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF680D8255FDB9800E7C347 /* SplashAnimatorDescription.swift */; };
+		ADF681302562CE9200E7C347 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF6812F2562CE9200E7C347 /* MainViewController.swift */; };
+		ADF681372562CFB700E7C347 /* CollectionViewTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF681352562CFB700E7C347 /* CollectionViewTableCell.swift */; };
+		ADF681382562CFB700E7C347 /* CollectionViewTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADF681362562CFB700E7C347 /* CollectionViewTableCell.xib */; };
+		ADF6813D2562D0A000E7C347 /* GalleryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF6813B2562D0A000E7C347 /* GalleryCollectionViewCell.swift */; };
+		ADF6813E2562D0A000E7C347 /* GalleryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADF6813C2562D0A000E7C347 /* GalleryCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		ADF680B0255FCC1300E7C347 /* masterdom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = masterdom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADF680B3255FCC1300E7C347 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ADF680B5255FCC1300E7C347 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		ADF680B7255FCC1300E7C347 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		ADF680BA255FCC1300E7C347 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ADF680BD255FCC1300E7C347 /* masterdom.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = masterdom.xcdatamodel; sourceTree = "<group>"; };
 		ADF680BF255FCC1400E7C347 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ADF680C2255FCC1400E7C347 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ADF680C4255FCC1400E7C347 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADF680CB255FCE4C00E7C347 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		ADF680D1255FD30000E7C347 /* SplashPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashPresenter.swift; sourceTree = "<group>"; };
+		ADF680D8255FDB9800E7C347 /* SplashAnimatorDescription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashAnimatorDescription.swift; sourceTree = "<group>"; };
+		ADF6812F2562CE9200E7C347 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		ADF681352562CFB700E7C347 /* CollectionViewTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTableCell.swift; sourceTree = "<group>"; };
+		ADF681362562CFB700E7C347 /* CollectionViewTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewTableCell.xib; sourceTree = "<group>"; };
+		ADF6813B2562D0A000E7C347 /* GalleryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryCollectionViewCell.swift; sourceTree = "<group>"; };
+		ADF6813C2562D0A000E7C347 /* GalleryCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GalleryCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +72,39 @@
 		ADF680B2255FCC1300E7C347 /* masterdom */ = {
 			isa = PBXGroup;
 			children = (
-				ADF680B3255FCC1300E7C347 /* AppDelegate.swift */,
 				ADF680B5255FCC1300E7C347 /* SceneDelegate.swift */,
-				ADF680B7255FCC1300E7C347 /* ViewController.swift */,
+				ADF680B3255FCC1300E7C347 /* AppDelegate.swift */,
+				ADF681342562CF6000E7C347 /* CollectionViewTableCell */,
+				ADF6812F2562CE9200E7C347 /* MainViewController.swift */,
 				ADF680B9255FCC1300E7C347 /* Main.storyboard */,
-				ADF680BF255FCC1400E7C347 /* Assets.xcassets */,
+				ADF680E0255FF80400E7C347 /* Splash */,
 				ADF680C1255FCC1400E7C347 /* LaunchScreen.storyboard */,
 				ADF680C4255FCC1400E7C347 /* Info.plist */,
+				ADF680BF255FCC1400E7C347 /* Assets.xcassets */,
 				ADF680BC255FCC1300E7C347 /* masterdom.xcdatamodeld */,
 			);
 			path = masterdom;
+			sourceTree = "<group>";
+		};
+		ADF680E0255FF80400E7C347 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				ADF680CB255FCE4C00E7C347 /* SplashViewController.swift */,
+				ADF680D1255FD30000E7C347 /* SplashPresenter.swift */,
+				ADF680D8255FDB9800E7C347 /* SplashAnimatorDescription.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		ADF681342562CF6000E7C347 /* CollectionViewTableCell */ = {
+			isa = PBXGroup;
+			children = (
+				ADF681352562CFB700E7C347 /* CollectionViewTableCell.swift */,
+				ADF681362562CFB700E7C347 /* CollectionViewTableCell.xib */,
+				ADF6813B2562D0A000E7C347 /* GalleryCollectionViewCell.swift */,
+				ADF6813C2562D0A000E7C347 /* GalleryCollectionViewCell.xib */,
+			);
+			path = CollectionViewTableCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,6 +167,8 @@
 				ADF680C3255FCC1400E7C347 /* LaunchScreen.storyboard in Resources */,
 				ADF680C0255FCC1400E7C347 /* Assets.xcassets in Resources */,
 				ADF680BB255FCC1300E7C347 /* Main.storyboard in Resources */,
+				ADF6813E2562D0A000E7C347 /* GalleryCollectionViewCell.xib in Resources */,
+				ADF681382562CFB700E7C347 /* CollectionViewTableCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,10 +179,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ADF680B8255FCC1300E7C347 /* ViewController.swift in Sources */,
+				ADF681302562CE9200E7C347 /* MainViewController.swift in Sources */,
+				ADF680D9255FDB9800E7C347 /* SplashAnimatorDescription.swift in Sources */,
 				ADF680B4255FCC1300E7C347 /* AppDelegate.swift in Sources */,
 				ADF680BE255FCC1300E7C347 /* masterdom.xcdatamodeld in Sources */,
 				ADF680B6255FCC1300E7C347 /* SceneDelegate.swift in Sources */,
+				ADF680CC255FCE4C00E7C347 /* SplashViewController.swift in Sources */,
+				ADF680D2255FD30000E7C347 /* SplashPresenter.swift in Sources */,
+				ADF6813D2562D0A000E7C347 /* GalleryCollectionViewCell.swift in Sources */,
+				ADF681372562CFB700E7C347 /* CollectionViewTableCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
